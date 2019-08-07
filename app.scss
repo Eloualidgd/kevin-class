@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+section {
+    width: 1130px;
+    height: 445px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.hero {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
 .img-bg {
     width: 100%;
     height: 100%;
@@ -12,6 +25,10 @@
 
 .header {
     display: flex;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 88vh;
     .l-block {
         width: 50vw;
         height: 640px;
@@ -19,6 +36,7 @@
         // position: absolute;
         .left {
             background-image: url("./assets/img/wood-right.png");
+            opacity: 0.2;
         }
     }
     .r-block {
@@ -27,6 +45,7 @@
         background-color: black;
         .right {
             background-image: url("./assets/img/wood-left.png");
+            opacity: 0.2;
         }
     }
 }
